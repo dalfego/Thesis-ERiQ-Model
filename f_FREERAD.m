@@ -1,0 +1,7 @@
+function Uz = f_FREERAD(P53,MDAMAGE,Cz,FOXO)
+
+global FREERAD_SA
+
+Uz = FREERAD_SA*(P53+(MDAMAGE*0.2)+Cz-(FOXO*.05));
+
+end
