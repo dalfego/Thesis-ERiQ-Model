@@ -4,9 +4,9 @@ Computational Matlab model simulating stress response pathways in an energy rest
 Alfego, D., & Kriete, A. (2017). Simulation of Cellular Energy Restriction in Quiescence (ERiQ)—A Theoretical Model for Aging. Biology, 6(4), 44.
 
 ERiQ Computational Model Instructions
-**All .m files need to be in the same folder directory in Matlab
+All .m files need to be in the same folder directory in Matlab
 
-•	ERiQ.m
+ERiQ.m
 -This file is not run, it is only called by the ode solver
 -This calls separate functions for each equation. These are each their own .m files labeled ‘f_.m’
     -Separated for organization and ease of optimization
