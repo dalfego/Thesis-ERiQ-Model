@@ -8,7 +8,7 @@ ERiQ Computational Model Instructions
 
 •	ERiQ.m
 -This file is not run, it is only called by the ode solver
-  -This calls separate functions for each equation. These are each their own .m files labeled ‘f_.m’
+-This calls separate functions for each equation. These are each their own .m files labeled ‘f_.m’
     -Separated for organization and ease of optimization
 
 •	ERiQ_event.m
